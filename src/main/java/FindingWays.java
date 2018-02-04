@@ -1,11 +1,11 @@
 public class FindingWays {
 
     public static void main(String[] args) {
-        TradeWayThread rcn = new TradeWayThread("RCN");
+        TradeWayThread rcn = new TradeWayThread("DLT");
         rcn.start();
         TradeWayThread knc = new TradeWayThread("BAT");
         knc.start();
-        TradeWayThread ltc = new TradeWayThread("DLT");
+        TradeWayThread ltc = new TradeWayThread("RCN");
         ltc.start();
         TradeWayThread neo = new TradeWayThread("TRIG");
         neo.start();
