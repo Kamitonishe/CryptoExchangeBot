@@ -1,9 +1,10 @@
+package binance;
+
 import com.binance.api.client.BinanceApiClientFactory;
 import com.binance.api.client.BinanceApiRestClient;
 import com.binance.api.client.domain.market.AggTrade;
 import com.binance.api.client.domain.market.OrderBook;
 import com.binance.api.client.domain.market.OrderBookEntry;
-import com.sun.org.apache.xpath.internal.SourceTree;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import java.util.List;
@@ -13,7 +14,7 @@ public class TradeWayThread extends Thread{
     //private double ETH = 0;
     //private double BNB = 0;
 
-    private static Logger log = LoggerFactory.getLogger(SimpleBinance.class.getName());
+    private static Logger log = LoggerFactory.getLogger(TradeWayThread.class.getName());
     private static BinanceApiClientFactory factory;
     private static BinanceApiRestClient client;
     private String currency;

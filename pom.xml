@@ -20,7 +20,7 @@
         <dependency>
             <groupId>com.github.binance-exchange</groupId>
             <artifactId>binance-java-api</artifactId>
-            <version>1564ffe13b</version>
+            <version>master-8ae3b0ad46-1</version>
         </dependency>
 
         <dependency>
